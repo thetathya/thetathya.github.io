@@ -1,1 +1,0 @@
-# thetathya.github.io
