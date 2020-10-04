@@ -21,6 +21,8 @@ $(document).ready(function(){
 		function(){ $(this).animate({ top: 0 }, 'fast'); }
 	);
 
+	/* ---- Animations ends ---- */
+
 
 	/* ---- Using Modernizr to check if the "required" and "placeholder" attributes are supported ---- */
 
