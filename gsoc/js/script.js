@@ -35,6 +35,8 @@ $(document).ready(function(){
 		});
 	}
 
+	/* ---- Using Modernizr to check if the "required" and "placeholder" attributes are supported ends ---- */
+
 	// for detecting if the browser is Safari
 	var browser = navigator.userAgent.toLowerCase();
 
