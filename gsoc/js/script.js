@@ -57,5 +57,7 @@ $(document).ready(function(){
 		});
 	}
 
+	// Also add proper support for firefox
+
 
 });
