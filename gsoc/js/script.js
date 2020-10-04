@@ -21,9 +21,6 @@ $(document).ready(function(){
 		function(){ $(this).animate({ top: 0 }, 'fast'); }
 	);
 
-	/* ---- Animations ends ---- */
-
-
 	/* ---- Using Modernizr to check if the "required" and "placeholder" attributes are supported ---- */
 
 	if (!Modernizr.input.placeholder) {
@@ -34,8 +31,6 @@ $(document).ready(function(){
 			}
 		});
 	}
-
-	/* ---- Using Modernizr to check if the "required" and "placeholder" attributes are supported ends ---- */
 
 	// for detecting if the browser is Safari
 	var browser = navigator.userAgent.toLowerCase();
@@ -56,8 +51,4 @@ $(document).ready(function(){
 			$('.popup').remove();
 		});
 	}
-
-	// Also add proper support for firefox
-
-
 });
